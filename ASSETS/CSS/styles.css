@@ -1,0 +1,275 @@
+body{
+    background-image: url(../IMG/56.png);
+    background-size: 1000 ;
+    background-repeat: no-repeat;
+    min-height: 100%;   
+    
+}
+@font-face {
+    font-family: "Mi fuente";
+    src: url(/ASSETS/static/Inconsolata_Condensed.ttf/);
+}
+h5{
+    font-family: "Mi fuente";
+    color: #0000;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+}
+.navbar.navbar-expand-lg.bg-dark{
+    background: rgb(22,22,22);
+background: linear-gradient(90deg, rgba(22,22,22,1) 100%, rgba(157,157,157,1) 100%, rgba(164,164,164,1) 100%, rgba(145,145,145,1) 100%, rgba(0,0,0,1) 100%);
+}
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl{
+    color:#ffff;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: #BB0E65;
+}
+
+i.fa-brands.fa-facebook.fa-2xl:hover{
+    color:#BB0E65;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color:#BB0E65;
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color:#BB0E65;
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+    color:#BB0E65;
+}
+.list-group{
+    --bs-list-group-bg:tranparent;
+}
+section.about{
+    margin-top: 1rem;
+}
+p{
+    margin-top:200px;
+    text-align: center;
+    font-size: 40px;
+}
+span{
+    font-family: "Mi fuente";
+    color: #fff;
+    font-size: 50px;
+    
+}
+a:hover{
+    color: #fff;
+}
+h1{
+    font-family: "Mi fuente";
+    color: #ffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}
+.imagen{
+    margin-top: 5%; 
+}
+h2{
+    font-family: "Mi fuente";
+    color: #ffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%; 
+}
+h3{
+    font-family: "Mi fuente";
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+}
+h4{
+    font-family: "Mi fuente";
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 17%;
+    
+}
+.nombre{
+    font-family: "Mi fuente";
+    color:#BB0E65;
+    font-size: 30px;
+}
+h6{
+    font-family: "Mi fuente";
+    font-size: 50px;
+    color: #fff;
+    margin-top: 1%;
+}
+.Port{
+    font-family: "Mi fuente";
+    color:#BB0E65;
+    font-size: 50px;
+}
+.botn{
+    margin-top: 16%;
+    text-align: left;
+    font-family: "Mi fuente";
+    font-size: 20px;
+
+}
+button{
+    margin: 90px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #BB0E65;
+    color: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+}
+button:hover{
+    color: #fff;
+    
+}
+button span{
+    position: absolute;
+    background: #fff;
+    transition: .5s;
+    
+}
+button span:nth-child(1){
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+button span:nth-child(2){
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+button span:nth-child(3){
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+button span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+button:hover span:nth-child(1){
+    left: 0;
+}
+button:hover span:nth-child(2){
+    right: 0;
+}
+button:hover span:nth-child(3){
+    bottom: 0;
+}
+button:hover span:nth-child(4){
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Estilo de Experiencia */
+
+.fondo{
+    background-image: url(../IMG/experiencia.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.Experiencia{
+    font-family:"Mi fuente";
+    color: #ffff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1%;
+}
+.Trabajos{
+    font-family:"Mi fuente";
+    color: #ffff;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5%;
+}
+.fondo1{
+    background-image: url(../IMG/educacion.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.Educacion{
+    font-family:"Mi fuente";
+    color: #ffff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1%;
+}
+.fondo2{
+    background-image: url(../IMG/fondo3.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.Titulo1{
+    font-family:"Mi fuente";
+    color: #ffff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1%;
+}
+.contenedor{
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.barra{
+    width: 350px;
+    height: 20px;
+    background: #BB0E65;
+    border-radius: 10px;
+    box-shadow: 4px 25px 25px #30031a;
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);
+}
+.htmls{
+    text-align: center;
+}
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background: rgba(225,225,225,0.5);
+    border-radius: 10px;
+    animation: Aumentar 5s ease;
+
+}
+@keyframes Aumentar {
+    0%{width: 0%;}
+    100%{width: var(--w)}
+}
+.fondo3{
+    background-image: url(../IMG/proyectos.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+p{
+    font-family:"Mi fuente";
+    color: #ffff;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1%;
+}
